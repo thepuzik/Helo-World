@@ -1,0 +1,52 @@
+body {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  font-family: arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+ul.nav {
+  text-align: right;
+  line-height: 24px;
+}
+
+ul.rightfooter {
+  float: right;
+  poistion: relative;
+  margin-right: 30px;
+  width: 214.688px;
+  height: 40px;
+  padding-left: 27px;
+}
+
+ul.leftfooter {
+  text-align: left;
+  margin-left: 30px;
+  position: absolute;
+}
+
+#footer {
+  font-size: small;
+  vertival-align: top;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+div.footbar {
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  min-width: 980px;
+  margin-left: -7px;
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1)
+}
